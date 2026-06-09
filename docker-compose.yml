@@ -1,0 +1,93 @@
+version: '3.8'
+
+services:
+  # PostgreSQL 数据库
+  postgres:
+    image: postgres:15-alpine
+    container_name: green-credit-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: green_credit_dao
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
+      - ./database/init.sql:/docker-entrypoint-initdb.d/02-init.sql
+    networks:
+      - green-credit-network
+
+  # Redis 缓存
+  redis:
+    image: redis:7-alpine
+    container_name: green-credit-redis
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    networks:
+      - green-credit-network
+
+  # Node.js API 服务
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: green-credit-api
+    environment:
+      NODE_ENV: production
+      PORT: 3001
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_USER: postgres
+      DB_PASSWORD: password
+      DB_NAME: green_credit_dao
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      JAVA_SERVICE_URL: http://blockchain:8080
+    ports:
+      - "3001:3001"
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - green-credit-network
+
+  # Java 区块链服务
+  blockchain:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.java
+    container_name: green-credit-blockchain
+    environment:
+      SPRING_PROFILES_ACTIVE: production
+      SERVER_PORT: 8080
+    ports:
+      - "8080:8080"
+    networks:
+      - green-credit-network
+
+  # Nginx 反向代理
+  nginx:
+    image: nginx:alpine
+    container_name: green-credit-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./certs:/etc/nginx/certs:ro
+    depends_on:
+      - api
+    networks:
+      - green-credit-network
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  green-credit-network:
+    driver: bridge

@@ -1,0 +1,326 @@
+[INFO] 00:07:59 ts-node-dev ver. 2.0.0 (using ts-node ver. 10.9.2, typescript ver. 5.9.3)
+[32minfo[39m: Server is running on port 3001
+[32minfo[39m: Environment: development
+[32minfo[39m: API endpoints:
+[32minfo[39m:   Auth: /api/auth
+[32minfo[39m:   Enterprise: /api/enterprise
+[32minfo[39m:   Bank: /api/bank
+[32minfo[39m:   Regulatory: /api/regulatory
+[32minfo[39m:   DataSource: /api/datasource
+[32minfo[39m: GET /
+[32minfo[39m: POST /api/auth/login
+[INFO] 00:08:12 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\app.ts has been modified
+[32minfo[39m: Server is running on port 3001
+[32minfo[39m: Environment: development
+[32minfo[39m: API endpoints:
+[32minfo[39m:   Auth: /api/auth
+[32minfo[39m:   Enterprise: /api/enterprise
+[32minfo[39m:   Bank: /api/bank
+[32minfo[39m:   Regulatory: /api/regulatory
+[32minfo[39m:   DataSource: /api/datasource
+[32minfo[39m: GET /
+[32minfo[39m: GET /
+[32minfo[39m: GET /assets/index-07d5e351.css
+[32minfo[39m: GET /assets/index-07d5e351.css
+[32minfo[39m: GET /
+[32minfo[39m: GET /
+[32minfo[39m: GET /assets/index-703a109b.js
+[32minfo[39m: GET /assets/index-07d5e351.css
+[32minfo[39m: GET /assets/index-703a109b.js
+[32minfo[39m: POST /api/auth/login
+[32minfo[39m: GET /
+[32minfo[39m: GET /assets/index-07d5e351.css
+[32minfo[39m: GET /assets/index-703a109b.js
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /
+[32minfo[39m: GET /assets/index-07d5e351.css
+[32minfo[39m: GET /assets/index-703a109b.js
+[32minfo[39m: GET /
+[32minfo[39m: GET /assets/index-703a109b.js
+[32minfo[39m: GET /assets/index-07d5e351.css
+[32minfo[39m: GET /
+[32minfo[39m: GET /assets/index-703a109b.js
+[32minfo[39m: GET /assets/index-07d5e351.css
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: POST /api/auth/login
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: POST /api/auth/login
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /
+[32minfo[39m: GET /assets/index-703a109b.js
+[32minfo[39m: GET /assets/index-07d5e351.css
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /api/regulatory/green-washing-alerts
+[32minfo[39m: GET /
+[32minfo[39m: GET /assets/index-07d5e351.css
+[32minfo[39m: GET /assets/index-703a109b.js
+[32minfo[39m: GET /
+[32minfo[39m: GET /assets/index-07d5e351.css
+[32minfo[39m: GET /assets/index-703a109b.js
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /
+[32minfo[39m: GET /assets/index-07d5e351.css
+[32minfo[39m: GET /assets/index-703a109b.js
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /api/regulatory/green-washing-alerts
+[32minfo[39m: GET /
+[32minfo[39m: GET /assets/index-07d5e351.css
+[32minfo[39m: GET /assets/index-703a109b.js
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /api/regulatory/green-washing-alerts
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: POST /api/auth/login
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /api/bank/pending-applications
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /regulatory
+[32minfo[39m: GET /assets/index-703a109b.js
+[32minfo[39m: GET /assets/index-07d5e351.css
+[32minfo[39m: GET /api/regulatory/green-washing-alerts
+[32minfo[39m: POST /api/auth/login
+[32minfo[39m: GET /
+[32minfo[39m: GET /assets/index-07d5e351.css
+[32minfo[39m: GET /assets/index-703a109b.js
+[32minfo[39m: GET /regulatory
+[32minfo[39m: GET /assets/index-703a109b.js
+[32minfo[39m: GET /assets/index-07d5e351.css
+[32minfo[39m: GET /
+[32minfo[39m: GET /
+[32minfo[39m: HEAD /favicon.ico
+[32minfo[39m: GET /
+[32minfo[39m: HEAD /favicon.ico
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: HEAD /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: HEAD /vite.svg
+[32minfo[39m: GET /favicon.ico
+[32minfo[39m: GET /
+[32minfo[39m: GET /assets/index-703a109b.js
+[32minfo[39m: GET /assets/index-07d5e351.css
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /
+[32minfo[39m: GET /favicon.ico
+[32minfo[39m: GET /assets/index-703a109b.js
+[32minfo[39m: GET /assets/index-07d5e351.css
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /
+[32minfo[39m: GET /assets/index-703a109b.js
+[32minfo[39m: GET /assets/index-07d5e351.css
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: GET /vite.svg
+[32minfo[39m: POST /api/auth/login
+[32minfo[39m: GET /api/bank/pending-applications
+[32minfo[39m: POST /api/auth/login
+[32minfo[39m: GET /api/enterprise/authorizations
+[31merror[39m: Get enterprise error: invalid input syntax for type integer: "authorizations" {"code":"22P02","file":"numutils.c","length":152,"line":"232","name":"error","routine":"pg_strtoint32","severity":"ERROR","stack":"error: invalid input syntax for type integer: \"authorizations\"\n    at D:\\DDDDDMMMMM\\green-credit-dao\\backend\\node_modules\\.pnpm\\pg-pool@3.14.0_pg@8.21.0\\node_modules\\pg-pool\\index.js:45:11\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at Object.getEnterprise (D:\\DDDDDMMMMM\\green-credit-dao\\backend\\src\\services\\enterpriseService.ts:9:20)\n    at D:\\DDDDDMMMMM\\green-credit-dao\\backend\\src\\routes\\enterprise.ts:40:24","where":"unnamed portal parameter $1 = '...'"}
+[32minfo[39m: GET /api/enterprise/rating/applications
+[32minfo[39m: GET /api/enterprise/certificate/3
+[32minfo[39m: GET /api/enterprise/credits/3
+[32minfo[39m: GET /api/regulatory/green-washing-alerts
+[32minfo[39m: GET /api/regulatory/green-washing-alerts
+[32minfo[39m: GET /node_modules/.vite/deps/antd.js
+[32minfo[39m: GET /
+[32minfo[39m: GET /vite.svg
+[INFO] 21:06:41 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\utils\response.ts has been modified
+[INFO] 21:06:43 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\utils\response.ts has been modified
+[32minfo[39m: Server is running on port 3001
+[32minfo[39m: Environment: development
+[32minfo[39m: API endpoints:
+[32minfo[39m:   Auth: /api/auth
+[32minfo[39m:   Enterprise: /api/enterprise
+[32minfo[39m:   Bank: /api/bank
+[32minfo[39m:   Regulatory: /api/regulatory
+[32minfo[39m:   DataSource: /api/datasource
+[INFO] 21:06:45 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\utils\crypto.ts has been modified
+[32minfo[39m: Server is running on port 3001
+[32minfo[39m: Environment: development
+[32minfo[39m: API endpoints:
+[32minfo[39m:   Auth: /api/auth
+[32minfo[39m:   Enterprise: /api/enterprise
+[32minfo[39m:   Bank: /api/bank
+[32minfo[39m:   Regulatory: /api/regulatory
+[32minfo[39m:   DataSource: /api/datasource
+[INFO] 21:06:54 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\utils\jwt.ts has been modified
+[32minfo[39m: Server is running on port 3001
+[32minfo[39m: Environment: development
+[32minfo[39m: API endpoints:
+[32minfo[39m:   Auth: /api/auth
+[32minfo[39m:   Enterprise: /api/enterprise
+[32minfo[39m:   Bank: /api/bank
+[32minfo[39m:   Regulatory: /api/regulatory
+[32minfo[39m:   DataSource: /api/datasource
+[INFO] 21:06:56 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\utils\jwt.ts has been modified
+[32minfo[39m: Server is running on port 3001
+[32minfo[39m: Environment: development
+[32minfo[39m: API endpoints:
+[32minfo[39m:   Auth: /api/auth
+[32minfo[39m:   Enterprise: /api/enterprise
+[32minfo[39m:   Bank: /api/bank
+[32minfo[39m:   Regulatory: /api/regulatory
+[32minfo[39m:   DataSource: /api/datasource
+[INFO] 21:06:58 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\middleware\auth.ts has been modified
+[32minfo[39m: Server is running on port 3001
+[32minfo[39m: Environment: development
+[32minfo[39m: API endpoints:
+[32minfo[39m:   Auth: /api/auth
+[32minfo[39m:   Enterprise: /api/enterprise
+[32minfo[39m:   Bank: /api/bank
+[32minfo[39m:   Regulatory: /api/regulatory
+[32minfo[39m:   DataSource: /api/datasource
+[INFO] 21:07:00 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\utils\blockchain.ts has been modified
+[32minfo[39m: Server is running on port 3001
+[32minfo[39m: Environment: development
+[32minfo[39m: API endpoints:
+[32minfo[39m:   Auth: /api/auth
+[32minfo[39m:   Enterprise: /api/enterprise
+[32minfo[39m:   Bank: /api/bank
+[32minfo[39m:   Regulatory: /api/regulatory
+[32minfo[39m:   DataSource: /api/datasource
+[INFO] 21:07:02 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\utils\blockchain.ts has been modified
+[32minfo[39m: Server is running on port 3001
+[32minfo[39m: Environment: development
+[32minfo[39m: API endpoints:
+[32minfo[39m:   Auth: /api/auth
+[32minfo[39m:   Enterprise: /api/enterprise
+[32minfo[39m:   Bank: /api/bank
+[32minfo[39m:   Regulatory: /api/regulatory
+[32minfo[39m:   DataSource: /api/datasource
+[INFO] 21:07:13 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\services\authService.ts has been modified
+[32minfo[39m: Server is running on port 3001
+[32minfo[39m: Environment: development
+[32minfo[39m: API endpoints:
+[32minfo[39m:   Auth: /api/auth
+[32minfo[39m:   Enterprise: /api/enterprise
+[32minfo[39m:   Bank: /api/bank
+[32minfo[39m:   Regulatory: /api/regulatory
+[32minfo[39m:   DataSource: /api/datasource
+[INFO] 21:07:15 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\services\authService.ts has been modified
+[32minfo[39m: Server is running on port 3001
+[32minfo[39m: Environment: development
+[32minfo[39m: API endpoints:
+[32minfo[39m:   Auth: /api/auth
+[32minfo[39m:   Enterprise: /api/enterprise
+[32minfo[39m:   Bank: /api/bank
+[32minfo[39m:   Regulatory: /api/regulatory
+[32minfo[39m:   DataSource: /api/datasource
+[INFO] 21:07:18 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\services\dataService.ts has been modified
+[32minfo[39m: Server is running on port 3001
+[32minfo[39m: Environment: development
+[32minfo[39m: API endpoints:
+[32minfo[39m:   Auth: /api/auth
+[32minfo[39m:   Enterprise: /api/enterprise
+[32minfo[39m:   Bank: /api/bank
+[32minfo[39m:   Regulatory: /api/regulatory
+[32minfo[39m:   DataSource: /api/datasource
+[INFO] 21:07:20 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\services\dataService.ts has been modified
+[32minfo[39m: Server is running on port 3001
+[32minfo[39m: Environment: development
+[32minfo[39m: API endpoints:
+[32minfo[39m:   Auth: /api/auth
+[32minfo[39m:   Enterprise: /api/enterprise
+[32minfo[39m:   Bank: /api/bank
+[32minfo[39m:   Regulatory: /api/regulatory
+[32minfo[39m:   DataSource: /api/datasource
+[INFO] 21:07:22 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\services\enterpriseService.ts has been modified
+[32minfo[39m: Server is running on port 3001
+[32minfo[39m: Environment: development
+[32minfo[39m: API endpoints:
+[32minfo[39m:   Auth: /api/auth
+[32minfo[39m:   Enterprise: /api/enterprise
+[32minfo[39m:   Bank: /api/bank
+[32minfo[39m:   Regulatory: /api/regulatory
+[32minfo[39m:   DataSource: /api/datasource
+[INFO] 21:07:24 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\services\enterpriseService.ts has been modified
+[32minfo[39m: Server is running on port 3001
+[32minfo[39m: Environment: development
+[32minfo[39m: API endpoints:
+[32minfo[39m:   Auth: /api/auth
+[32minfo[39m:   Enterprise: /api/enterprise
+[32minfo[39m:   Bank: /api/bank
+[32minfo[39m:   Regulatory: /api/regulatory
+[32minfo[39m:   DataSource: /api/datasource
+[INFO] 21:07:26 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\services\enterpriseService.ts has been modified
+[32minfo[39m: Server is running on port 3001
+[32minfo[39m: Environment: development
+[32minfo[39m: API endpoints:
+[32minfo[39m:   Auth: /api/auth
+[32minfo[39m:   Enterprise: /api/enterprise
+[32minfo[39m:   Bank: /api/bank
+[32minfo[39m:   Regulatory: /api/regulatory
+[32minfo[39m:   DataSource: /api/datasource
+[INFO] 21:07:33 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\routes\auth.ts has been modified
+[INFO] 21:07:36 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\routes\auth.ts has been modified
+[INFO] 21:07:38 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\routes\auth.ts has been modified
+[32minfo[39m: Server is running on port 3001
+[32minfo[39m: Environment: development
+[32minfo[39m: API endpoints:
+[32minfo[39m:   Auth: /api/auth
+[32minfo[39m:   Enterprise: /api/enterprise
+[32minfo[39m:   Bank: /api/bank
+[32minfo[39m:   Regulatory: /api/regulatory
+[32minfo[39m:   DataSource: /api/datasource
+[32minfo[39m: Server is running on port 3001
+[32minfo[39m: Environment: development
+[32minfo[39m: API endpoints:
+[32minfo[39m:   Auth: /api/auth
+[32minfo[39m:   Enterprise: /api/enterprise
+[32minfo[39m:   Bank: /api/bank
+[32minfo[39m:   Regulatory: /api/regulatory
+[32minfo[39m:   DataSource: /api/datasource
+[INFO] 21:07:43 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\index.ts has been modified
+[INFO] 21:07:44 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\index.ts has been modified
+[INFO] 21:07:45 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\index.ts has been modified
+[32minfo[39m: Server is running on port 3001
+[32minfo[39m: Environment: development
+[32minfo[39m: API endpoints:
+[32minfo[39m:   Auth: /api/auth
+[32minfo[39m:   Enterprise: /api/enterprise
+[32minfo[39m:   Bank: /api/bank
+[32minfo[39m:   Regulatory: /api/regulatory
+[32minfo[39m:   DataSource: /api/datasource
+[INFO] 21:07:53 Restarting: D:\DDDDDMMMMM\green-credit-dao\backend\src\app.ts has been modified
+[32minfo[39m: Server is running on port 3001
+[32minfo[39m: Environment: development
+[32minfo[39m: API endpoints:
+[32minfo[39m:   Auth: /api/auth
+[32minfo[39m:   Enterprise: /api/enterprise
+[32minfo[39m:   Bank: /api/bank
+[32minfo[39m:   Regulatory: /api/regulatory
+[32minfo[39m:   DataSource: /api/datasource

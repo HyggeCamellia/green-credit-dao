@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: green-credit-blockchain
+
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+blockchain:
+  config-path: classpath:fisco_bcos_config.conf
+  group-id: 1
+  chain-id: 1
+
+logging:
+  level:
+    root: INFO
+    org.fisco.bcos: DEBUG
